@@ -51,7 +51,7 @@ plugins=(git osx vi-mode history-substring-search brew colored-man zsh-syntax-hi
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/sbin:/Users/chenzheng/arm-cs-tools/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/sbin:/Users/chenzheng/arm-cs-tools/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
