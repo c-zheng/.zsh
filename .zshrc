@@ -82,3 +82,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="/usr/local/bin/vim"
 alias vi="/usr/local/bin/vim"
+
+. `brew --prefix`/etc/profile.d/z.sh
+
+# added by travis gem
+[ -f /Users/chenzheng/.travis/travis.sh ] && source /Users/chenzheng/.travis/travis.sh
