@@ -21,3 +21,7 @@ antigen theme philips
 
 # Tell Antigen that you're done.
 antigen apply
+
+# some local settings
+source ~/.profile
+
