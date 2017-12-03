@@ -47,7 +47,7 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 export MODE_INDICATOR="%{$fg_bold[red]%}[NORMAL]%{$reset_color%}"
 export KEYTIMEOUT=1
-plugins=(git osx vi-mode history-substring-search brew colored-man zsh-syntax-highlighting last-working-directory)
+plugins=(git osx vi-mode history-substring-search colored-man zsh-syntax-highlighting last-working-directory)
 
 # User configuration
 
