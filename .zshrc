@@ -80,9 +80,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vim="/usr/local/bin/vim"
-alias vi="/usr/local/bin/vim"
-alias rake="noglob rake"
+#alias vim="/usr/local/bin/vim"
+#alias vi="/usr/local/bin/vim"
+#alias rake="noglob rake"
 
 . `brew --prefix`/etc/profile.d/z.sh
 
