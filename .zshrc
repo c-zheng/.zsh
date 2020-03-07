@@ -16,6 +16,12 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # Z
 antigen bundle rupa/z
 
+# fzf
+antigen bundle junegunn/fzf
+antigen bundle mafredri/zsh-async
+antigen bundle seletskiy/zsh-fuzzy-search-and-edit
+bindkey '^P' fuzzy-search-and-edit
+
 # Load the theme.
 antigen theme philips
 
@@ -25,3 +31,7 @@ antigen apply
 # some local settings
 source ~/.profile
 
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPS="--extended"
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
